@@ -2,8 +2,6 @@
 
 {% block title %}Home{% endblock %}
 
-
-
 {% block content %}
 {% if user.is_authenticated %}
 
@@ -14,8 +12,7 @@
           <button type="button" class="btn btn-light">Click to Log Out</button>
         </a>
       </div>
-      
-      
+
       {% if rooms %}
         <div class="row equal">
             {% for room in rooms %}
@@ -39,8 +36,6 @@
     {% endif %}
 </div>
 
-
-
 {% else %}
 <div class="container">
     <div class="alert alert-info d-flex justify-content-between" role="alert">
@@ -53,10 +48,5 @@
 {% endif %}
 
 <br/>
-
-    
-
-
-
 
 {% endblock %}

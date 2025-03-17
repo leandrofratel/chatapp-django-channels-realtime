@@ -5,9 +5,6 @@
 {% block content %}
 {% if user.is_authenticated %}
 
-  
-
-
   <div class="container">
     <div class="row d-flex justify-content-center">
         <div class="col-12">
@@ -116,8 +113,6 @@ const chatbox = document.querySelector("#chatbox");
     };
   </script>
 
-
-
 {% else %}
 <div class="container">
     <div class="alert alert-info d-flex justify-content-between" role="alert">
@@ -130,10 +125,5 @@ const chatbox = document.querySelector("#chatbox");
 {% endif %}
 
 <br/>
-
-    
-
-
-
 
 {% endblock %}
