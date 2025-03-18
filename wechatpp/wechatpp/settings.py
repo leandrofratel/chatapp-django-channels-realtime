@@ -13,7 +13,6 @@ SECRET_KEY = 'django-insecure-$!(z0fy)6hkx@q9q7u!zvu%3k+3tw=ogfdoptv%3ic&=j!x+*5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.2.9.122', '127.0.0.1', 'localhost']
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 # Application definition
@@ -71,8 +70,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'wechatpp.wsgi.application'
-
-
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
